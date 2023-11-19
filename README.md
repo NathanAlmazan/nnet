@@ -1,5 +1,5 @@
 ## NNET
-A miniature implementation of Neural Network
+A miniature implementation of Neural Network using numpy library only.
 
 # How to use NNET?
 You can train a neural network using NNET by importing the package and calling the base class to define your model architecture. 
