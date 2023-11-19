@@ -15,7 +15,7 @@ The base class accepts an array of layers.
   ])
 ```
 
-After defining your model architecture, you can train the model using 'fit' or 'fit_transform' methods.
+After defining your model architecture, you can train the model using 'fit' or 'fit_transform' methods. 'Fit' trains the data only while 'fit_transform' trains and produce prediction from input batches.
 
 ```python
   model.fit(X_train, Y_train, 500, nnet.loss.MeanSquaredError, nnet.optimizers.RMSProp(), X_val=X_test, Y_val=Y_test)
